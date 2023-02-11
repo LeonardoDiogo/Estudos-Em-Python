@@ -1,0 +1,5 @@
+custo = float(input('qual o preço do produto ? '))
+precoA = custo - (custo * 5/100)
+precoB = custo + (custo * 8 / 100)
+precoC = custo + (custo * 15 / 100)
+print(f'o preco avista de {custo} passa a ser {precoA} e se dividir em 5x o {custo} passa a a ser {precoB} e se dividir em 12x o preço passa a ser {precoC}')
